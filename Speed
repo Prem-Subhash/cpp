@@ -1,0 +1,28 @@
+
+#include <iostream>
+using namespace std;
+int main()
+{
+   float u,v,a;
+   float speed;
+   cout<<"enter values";
+   cin>>u>>v>>a;
+   speed=(v*v-u*u)/(2*a);
+   cout<<"enterspeed"<<speed;
+    return 0;
+   }
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+   float u,v,a;
+   float speed;
+   cout<<"enter values";
+   cin>>u>>v>>a;
+   speed=pow(v,2)-pow(u,2)/(2*a);
+   cout<<"enterspeed"<<speed;
+   
+   return 0;
+   
+}
